@@ -11,9 +11,10 @@ summary: Learn how to use Academic's docs layout for publishing online courses, 
   documentation, and tutorials.
 title: Overview
 toc: true
-type: docs
+type: book
 weight: 1
 ---
+ 
 
 ## Flexibility
 

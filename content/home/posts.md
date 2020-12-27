@@ -1,22 +1,26 @@
 ---
 # An instance of the Pages widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
+# This file represents a page section.
 widget: pages
 
-# This file represents a page section.
 headless: true
+
+
+# Activate this widget? true/false
+active: true
 
 # Order that this section appears on the page.
 weight: 60
 
-title: Recent Posts
-subtitle:
+title: "" # Recent Posts
+subtitle: "" #Some recent posts are shown in this section.
 
 content:
   # Page type to display. E.g. post, talk, publication...
   page_type: post
   # Choose how many pages you would like to display (0 = all pages)
-  count: 5
+  count: 2
   # Filter on criteria
   filters:
     author: ""
@@ -38,4 +42,6 @@ design:
   #   3 = Card
   #   4 = Citation (publication only)
   view: 2
+  # Choose how many columns the section has. Valid values: '1' or '2'.
+  columns: '1'
 ---

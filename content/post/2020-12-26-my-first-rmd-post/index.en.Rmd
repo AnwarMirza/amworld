@@ -29,3 +29,7 @@ z = np.cos(t)
 plt.plot(t,y)
 plt.plot(t,z)
 ```
+
+**Some bold text**
+
+

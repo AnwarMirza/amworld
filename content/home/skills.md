@@ -6,6 +6,9 @@ widget: featurette
 # This file represents a page section.
 headless: true
 
+# Activate this widget? true/false
+active: false
+
 # Order that this section appears on the page.
 weight: 30
 
@@ -16,14 +19,22 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 90%
+- description: 99%
+  icon: MLicon
+  icon_pack: custom
+  name: Machine Learning
+- description: 99%
   icon: r-project
   icon_pack: fab
-  name: R
-- description: 100%
-  icon: chart-line
-  icon_pack: fas
-  name: Statistics
+  name: Computer Science
+- description: 99%
+  icon: r-project
+  icon_pack: fab
+  name: Image Processing
+- description: 90%
+  icon: python
+  icon_pack: fab
+  name: Python Programming
 - description: 10%
   icon: camera-retro
   icon_pack: fas
