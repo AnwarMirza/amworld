@@ -23,8 +23,14 @@ projects: []
 
 
 <p>I am using python the draw sine and cosine curves. The code and the results are here.</p>
-<pre class="python"><code>
-import numpy as np
+<pre class="python"><code>import sys
+if sys.version_info[0] &lt; 3:
+    raise Exception(&quot;Must be using Python 3&quot;)
+    
+import platform
+print(platform.python_version())</code></pre>
+<pre><code>## 3.6.12</code></pre>
+<pre class="python"><code>import numpy as np
 import matplotlib.pyplot as plt
 t = np.arange(0, 5*np.pi, 0.1)
 y = np.sin(t)

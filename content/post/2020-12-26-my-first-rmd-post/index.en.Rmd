@@ -20,6 +20,12 @@ projects: []
 I am using python the draw sine and cosine curves. The code and the results are here.
 
 ```{python}
+import sys
+if sys.version_info[0] < 3:
+    raise Exception("Must be using Python 3")
+    
+import platform
+print(platform.python_version())
 
 import numpy as np
 import matplotlib.pyplot as plt
