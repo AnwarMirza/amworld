@@ -11,7 +11,7 @@ summary: Learn how to use machine learning in a variety of application areas, su
 title: Overview
 toc: true
 type: book
-weight: 1 
+weight: 1
   
 ---
 This course provides an introduction to the field of machine learning.
