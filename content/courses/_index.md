@@ -13,4 +13,3 @@ type: page
 
 Presently, I am working on the following courses.
 
-
