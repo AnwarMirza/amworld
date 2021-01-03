@@ -4,10 +4,10 @@ bio: My research interests include machine learning, artificial intelligence, co
 education:
   courses:
   - course: PhD (Numerical Computing)
-    institution: Imperical College, London, UK
+    institution: Imperial College, London, UK
     year: 1995
   - course: DIC (Diploma of Imperial College)
-    institution: Imperical College, London, UK
+    institution: Imperial College, London, UK
     year: 1991
   - course: MSc (Nuclear Engineering)
     institution: Centre for Nuclear Studies, Quaid-i-Azam University, Pakistan
