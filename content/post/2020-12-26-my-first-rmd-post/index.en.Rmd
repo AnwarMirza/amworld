@@ -38,4 +38,26 @@ plt.plot(t,z)
 
 **Some bold text**
 
+Some examples of `matplotlib.plt' scatter plots:
 
+```{python}
+
+import numpy as np 
+import matplotlib.pyplot as plt 
+
+n = 100
+r = 2 * np.random.rand(n)
+theta = 2 * np.pi * np.random.rand(n)
+area = 200 * r**2 * np.random.rand(n)
+colors = theta
+
+# cmap_option = 'RdYlGn'
+cmap_option = 'hot_r'
+
+c = plt.scatter(theta, r, linewidths=1, edgecolors='black', c=colors, s=area, alpha=1, cmap= cmap_option)
+
+plt.xlim([-1, 7])
+plt.ylim([-0.5, 2.5])
+plt.show()
+
+```

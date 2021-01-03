@@ -39,3 +39,25 @@ plt.plot(t,y)
 plt.plot(t,z)</code></pre>
 <p><img src="/post/2020-12-26-my-first-rmd-post/index.en_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
 <p><strong>Some bold text</strong></p>
+<p>Some examples of `matplotlib.plt’ scatter plots:</p>
+<pre class="python"><code>
+import numpy as np 
+import matplotlib.pyplot as plt 
+
+n = 100
+r = 2 * np.random.rand(n)
+theta = 2 * np.pi * np.random.rand(n)
+area = 200 * r**2 * np.random.rand(n)
+colors = theta
+
+# cmap_option = &#39;RdYlGn&#39;
+cmap_option = &#39;hot_r&#39;
+
+c = plt.scatter(theta, r, linewidths=1, edgecolors=&#39;black&#39;, c=colors, s=area, alpha=1, cmap= cmap_option)
+
+plt.xlim([-1, 7])</code></pre>
+<pre><code>## (-1.0, 7.0)</code></pre>
+<pre class="python"><code>plt.ylim([-0.5, 2.5])</code></pre>
+<pre><code>## (-0.5, 2.5)</code></pre>
+<pre class="python"><code>plt.show()</code></pre>
+<p><img src="/post/2020-12-26-my-first-rmd-post/index.en_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
